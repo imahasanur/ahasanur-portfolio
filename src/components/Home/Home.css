@@ -1,0 +1,9 @@
+.home-container{
+    min-height:500px;
+    background:lightcyan;
+    color:cadetblue;
+}
+
+.home-content{
+    min-height:200px;
+}

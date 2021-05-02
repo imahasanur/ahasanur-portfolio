@@ -1,0 +1,55 @@
+.contact-container{
+    background:powderblue;
+    min-height:510px;
+}
+
+.contact-form{
+    min-height: 350px;
+
+}
+
+input[type="text"]:nth-child(1){
+    background:whitesmoke;
+    border:2px solid white;
+    min-width:250px;
+    color:darkcyan;
+}
+input[type="text"]:nth-child(1):hover{
+    background:white;
+    border:2px solid gray;
+    border-radius:5px;
+    min-width:250px;
+}
+
+input[type="email"]:nth-child(1){
+    background:whitesmoke;
+    border:2px solid white;
+    min-width:250px;
+    color:darkcyan;
+}
+input[type="email"]:nth-child(1):hover{
+    background:white;
+    border:2px solid gainsboro;
+    border-radius:5px;
+    min-width:250px;
+}
+
+textarea[type="text"]{
+    background:whitesmoke;
+    border:2px solid white;
+    min-width:250px;
+    color:darkcyan;
+    min-height:100px;
+}
+
+textarea[type="text"]:hover{
+    background:white;
+    border:2px solid gainsboro;
+    border-radius:5px;
+    min-width:250px;
+}
+
+.social-icons{
+    color:blueviolet;
+    
+}

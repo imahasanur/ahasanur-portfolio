@@ -1,0 +1,53 @@
+.about-container{
+    background:lightpink;
+    min-height: 650px;
+}
+
+.info-section{
+    background:#D8D5D8;
+    min-height: 400px;
+    box-shadow: 15px 10px 10px lightseagreen;
+}
+
+
+.profile-view{
+    height: 350px;
+    width:280px;
+    border-radius: 50%;
+}
+
+.beautiful-button{
+    padding:8px;
+    border:1px solid blueviolet;
+    background:darkcyan;
+    color:white;
+    border-radius:20%;
+}
+
+.beautiful-button:hover{
+    padding:10px;
+    border:2px solid orange;
+    background:yellowgreen;
+    color:white;
+    border-radius:20%;
+    box-shadow: 10px 5px 5px tomato;
+}
+.skill-section{
+    min-height: 50px;
+}
+
+@media (max-width:576px) {
+    .skill-section{
+        min-height: 50px;
+        display:flex;
+        text-align: start;
+    }
+    .beautiful-button{
+        padding:1px;
+    }
+    .beautiful-button:hover{
+        padding:1px;
+        margin:5px;
+    }
+    
+  }

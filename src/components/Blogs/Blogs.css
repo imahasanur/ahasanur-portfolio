@@ -1,0 +1,15 @@
+.blog-container{
+    min-height: 400px;
+    background:lightgray;
+
+}
+
+.sample-card{
+    color:brown;
+    min-height:240px;
+
+}
+
+.sample-card-body{
+
+}
