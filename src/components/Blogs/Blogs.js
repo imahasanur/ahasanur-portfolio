@@ -10,7 +10,9 @@ const Blogs = () => {
     }
     return (
         <div className="blog-container">
-            <h3 className="p-3 text-center" style={purpleColor}>My Recent Blogs</h3>
+            <div className="p-5">
+                <h3 className="p-3 text-center" style={purpleColor}>My Recent Blogs</h3>
+            </div>
             <div className="row container-fluid g-3 p-2">
                 <div className="col-10 col-sm-8 col-md-6 ">
                     <div class="card sample-card bg-light shadow-lg p-3 mb-5  rounded" >

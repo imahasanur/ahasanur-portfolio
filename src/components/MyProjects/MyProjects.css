@@ -7,7 +7,14 @@
     overflow: hidden;
     width:355px;
     height: 400px;
-    border:2px solid green;
+    border:2px solid gainsboro;
+}
+
+.slide-image2{
+    overflow: hidden;
+    width:355px;
+    min-height: 300px;
+    border:2px solid gainsboro;
 }
 
 .project-image{

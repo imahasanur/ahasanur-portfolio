@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useForm } from "react-hook-form";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Contact.css';
@@ -9,6 +9,7 @@ import{ init, send } from 'emailjs-com';
 
 init("user_fGMi3h6LeQ5ujeY6grJlX");
 const Contact = () => {
+    const [isSend, setIsSend] = useState(false);
     const { register, handleSubmit } = useForm();
     const onSubmit = (data, e) =>{
         e.preventDefault();
@@ -23,6 +24,7 @@ const Contact = () => {
             'user_fGMi3h6LeQ5ujeY6grJlX'
           )
             .then((response) => {
+              isSend(true);
               console.log('SUCCESS!', response.status, response.text);
             })
             .catch((err) => {
@@ -33,7 +35,7 @@ const Contact = () => {
     }
     return (
         <div className="contact-container">
-            <div className="text-center p-2">
+            <div className="text-center p-5">
                 <h2 style={{color:'grey'}}>Contact me</h2>
             </div>
 
@@ -54,10 +56,12 @@ const Contact = () => {
                     </div>
                 </form>
             </div>
+            <h4 style={{color:'green'}} className="text-center">{isSend && "Successfully Sent "}</h4>
+
             <div style={{fontSize:'1.3em'}} className="text-center social-icons">
-                <a className="m-3" onClick={()=> window.open("https://www.linkedin.com/in/ahasanur-rahman-a10925202/", "_blank")} ><FontAwesomeIcon icon={faLinkedinIn} />linked</a>
+                <span className="m-3" onClick={()=> window.open("https://www.linkedin.com/in/ahasanur-rahman-a10925202/", "_blank")} ><FontAwesomeIcon icon={faLinkedinIn} />linked</span>
                 <a className="m-3" href="mailto:imahasanur@gmail.com"><FontAwesomeIcon icon={faEnvelope} />mail</a>
-                <a className="m-3"  onClick={()=> window.open("https://github.com/imahasanur", "_blank")} ><FontAwesomeIcon icon={faGithub}/>git</a>
+                <span className="m-3"  onClick={()=> window.open("https://github.com/imahasanur", "_blank")} ><FontAwesomeIcon icon={faGithub}/>git</span>
                 
             </div>
             <div style={{fontSize:'1.3em'}} className="text-center social-icons">

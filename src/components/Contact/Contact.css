@@ -1,5 +1,5 @@
 .contact-container{
-    background:powderblue;
+    background:lightskyblue;
     min-height:510px;
 }
 
@@ -11,33 +11,33 @@
 input[type="text"]:nth-child(1){
     background:whitesmoke;
     border:2px solid white;
-    min-width:250px;
+    min-width:260px;
     color:darkcyan;
 }
 input[type="text"]:nth-child(1):hover{
     background:white;
     border:2px solid gray;
     border-radius:5px;
-    min-width:250px;
+    min-width:270px;
 }
 
 input[type="email"]:nth-child(1){
     background:whitesmoke;
     border:2px solid white;
-    min-width:250px;
+    min-width:260px;
     color:darkcyan;
 }
 input[type="email"]:nth-child(1):hover{
     background:white;
     border:2px solid gainsboro;
     border-radius:5px;
-    min-width:250px;
+    min-width:270px;
 }
 
 textarea[type="text"]{
     background:whitesmoke;
     border:2px solid white;
-    min-width:250px;
+    min-width:260px;
     color:darkcyan;
     min-height:100px;
 }
@@ -46,7 +46,7 @@ textarea[type="text"]:hover{
     background:white;
     border:2px solid gainsboro;
     border-radius:5px;
-    min-width:250px;
+    min-width:270px;
 }
 
 .social-icons{
