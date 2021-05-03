@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# ahasanur-rahman portfolio web app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project's live site [ahasanur-rahman portfolio web app](https://ahasanur-rahman.web.app/).
 
 ## Available Scripts
 
