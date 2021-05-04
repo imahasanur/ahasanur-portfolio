@@ -41,7 +41,7 @@ const About = () => {
 
             </div>
             <div className="text-center skill-section ">
-                <span className="m-2 beautiful-button">React Router</span>
+                <span className="m-2 beautiful-button">React Router DOM</span>
                 <span className="m-2 beautiful-button">React Redux</span>
                 <span className="m-2 beautiful-button">React Spring</span>
             </div>

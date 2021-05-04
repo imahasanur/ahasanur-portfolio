@@ -72,7 +72,7 @@ export default class Home extends React.Component {
                 <h5 style={{color:'purple'}}>Junior React Js Developer</h5>
                 <button style={{color:'green'}}
                     type="button" class="btn btn-light" 
-                    onClick={()=> window.open("https://drive.google.com/uc?export=download&id=1I_l8lLp5bodaosqpOU9T8BeXRvSzA-iX", "_blank")} >
+                    onClick={()=> window.open("https://drive.google.com/uc?export=download&id=1McPW76HOyKhkUgS3yjMTVrn7UnJqvelP", "_blank")} >
                 <FontAwesomeIcon icon={faDownload} /> My Resume</button>
             </div>
             </div>
@@ -85,3 +85,4 @@ export default class Home extends React.Component {
     );
   };
 }
+
