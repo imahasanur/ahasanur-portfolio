@@ -4,8 +4,8 @@ import profile from '../../images/profile.jpg';
 
 const About = () => {
     return (
-        <div className="about-container">
-            <h2 style={{color:'purple'}} className="text-center p-3 ">About </h2>
+        <div className="about-container pb-5">
+            <h2 style={{color:'black'}} className="text-center p-5 text-decoration-underline mb-5">About Me </h2>
             <div className=" info-section ">
                 <div className=" row container-fluid introduction-section">
                     <div className="col-11 col-sm-6 d-flex justify-content-center align-items-center">
@@ -14,14 +14,15 @@ const About = () => {
                         </div>
                     </div>
                     <div className=" col-11 col-sm-5 d-flex  p-0 align-items-center">
-                        <div className="m-2 text-secondary">
+                        <div className="m-2 ">
                             <h5 className="">I am a React Js Front End web developer.
-                            Developing websites in react for more than one years. Have a good team work experience. <br /> Completed many projects using react js and express js. Currently studying at Computer Science in Premier University Chittagong</h5>
+                            Developing websites in react for more than one years. Have a good team work experience. <br /> Completed many projects using react js and express js. Currently studying at Computer Science in Premier University Chittagong
+                            </h5>
                         </div>
                     </div>
                 </div>
             </div>
-            <div style={{color:"purple"}} className="p-2">
+            <div style={{color:"black"}} className="text-decoration-underline p-5">
                 <h3 className="text-center p-3">Technology Skill </h3>
             </div>
             <div className="text-center skill-section">

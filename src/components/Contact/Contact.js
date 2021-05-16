@@ -34,9 +34,11 @@ const Contact = () => {
 
     }
     return (
-        <div className="contact-container">
+        <div className="contact-container" id="octagon">
             <div className="text-center p-5">
-                <h2 style={{color:'grey'}}>Contact me</h2>
+            </div>
+            <div className="text-center p-5">
+                <h2 className ="text-decoration-underline" style={{color:'black', fontWeight:'bold'}}>Contact me</h2>
             </div>
 
             <div className="d-flex justify-content-center contact-form align-items-center">
@@ -45,14 +47,14 @@ const Contact = () => {
                         <input type="text" {...register("name")} placeholder="Your name"/>
                     </div>
                     <div className="p-2">
-                        <input type="email" {...register("email")} placeholder="Your email"/>
+                        <input type="email" {...register("email")} placeholder="Your email"  />
                     </div>
                     <div className="p-2">
                         <textarea type="text" {...register("message")} placeholder="Your thoughts .."/>
                     </div>
 
                     <div>
-                        <input type="submit" value="Send Message" className="m-2 btn btn-info"/>
+                        <input type="submit" value="Send Message" className="m-2 btn btn-dark" />
                     </div>
                 </form>
             </div>
@@ -60,12 +62,15 @@ const Contact = () => {
 
             <div style={{fontSize:'1.3em'}} className="text-center social-icons">
                 <span className="m-3" onClick={()=> window.open("https://www.linkedin.com/in/ahasanur-rahman-a10925202/", "_blank")} ><FontAwesomeIcon icon={faLinkedinIn} />linked</span>
-                <a className="m-3" href="mailto:imahasanur@gmail.com"><FontAwesomeIcon icon={faEnvelope} />mail</a>
+                <a style={{color:'black'}} className="m-3" href="mailto:imahasanur@gmail.com"><FontAwesomeIcon icon={faEnvelope} />mail</a>
                 <span className="m-3"  onClick={()=> window.open("https://github.com/imahasanur", "_blank")} ><FontAwesomeIcon icon={faGithub}/>git</span>
                 
             </div>
             <div style={{fontSize:'1.3em'}} className="text-center social-icons">
                 <a className="m-2" ><FontAwesomeIcon icon={faPhone} />+8801688790340</a>
+            </div>
+            <div style={{height:'140px'}}>
+
             </div>
         </div>
     );

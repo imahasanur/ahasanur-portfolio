@@ -1,36 +1,36 @@
 .about-container{
-    background:lightpink;
+    background:whitesmoke;
     min-height: 650px;
 }
 
 .info-section{
-    background:#D8D5D8;
+    background:whitesmoke;
     min-height: 400px;
-    box-shadow: 15px 10px 10px lightseagreen;
+    box-shadow: 15px 10px 10px white;
 }
 
 
 .profile-view{
     height: 350px;
     width:280px;
-    border-radius: 50%;
+    border-radius: 10%;
 }
 
 .beautiful-button{
     padding:8px;
     border:1px solid blueviolet;
-    background:darkcyan;
-    color:white;
+    background:whitesmoke;
+    color:black;
     border-radius:20%;
 }
 
 .beautiful-button:hover{
     padding:10px;
-    border:2px solid orange;
-    background:yellowgreen;
-    color:white;
+    border:2px solid whitesmoke;
+    background:whitesmoke;
+    color:black;
     border-radius:20%;
-    box-shadow: 10px 5px 5px tomato;
+    box-shadow: 10px 5px 5px white;
 }
 .skill-section{
     min-height: 50px;

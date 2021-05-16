@@ -1,11 +1,11 @@
 .blog-container{
     min-height: 400px;
-    background:lightgray;
+    background:whitesmoke;
 
 }
 
 .sample-card{
-    color:brown;
+    color:black;
     min-height:240px;
 }
 

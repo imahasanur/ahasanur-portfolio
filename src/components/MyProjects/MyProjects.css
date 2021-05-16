@@ -1,6 +1,6 @@
 .projects-container{
     min-height: 600px;
-    background: lightgray;
+    background: whitesmoke;
 }
 
 .slide-image{
@@ -25,10 +25,12 @@
 
 .project-card{
     max-width: 360px;
-    color:whitesmoke;
-    background: darkgray;
+    height:560px;
+    color:black;
+    background: white;
     border:0px;
     box-shadow: 10px 5px 5px lightpink;
+    
 }
 
 ul li{
